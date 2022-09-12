@@ -677,8 +677,8 @@
                       "defaultMarkers": "[\n  {\n    \"lat\": {{businessTable.selectedRow.latitude}},\n    \"long\": {{businessTable.selectedRow.longitude}},\n    \"title\": {{businessTable.selectedRow.name}}\n  }\n]",
                       "displayName": "Map",
                       "iconSVG": "/static/media/icon.ddde7d1b6b4d64050fde21a347260464.svg",
-                      "topRow": 34,
-                      "bottomRow": 73,
+                      "topRow": 32,
+                      "bottomRow": 74,
                       "parentRowSpace": 10,
                       "type": "MAP_WIDGET",
                       "hideCard": false,
@@ -719,10 +719,10 @@
                     },
                     {
                       "resetFormOnClick": false,
-                      "boxShadow": "none",
+                      "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button1",
                       "onClick": "{{\n(function () {\n    storeValue(\"business_id\", businessTable.selectedRow.business_id);\n    navigateTo(\"Business Reviews\") })() \n}}",
-                      "buttonColor": "#4ade80",
+                      "buttonColor": "#93c5fd",
                       "dynamicPropertyPathList": [
                         {
                           "key": "onClick"
