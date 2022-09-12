@@ -1,0 +1,21 @@
+{
+  "pages": [
+    {
+      "id": " Business Details",
+      "isDefault": true
+    },
+    {
+      "id": "Business Reviews",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#ECECEC",
+  "icon": "arrow-right",
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}
